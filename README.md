@@ -22,6 +22,22 @@
 
 Play framework
 
+## 前后端交互:
+
+采用异步交互方式。数据存储在Json对象中
+
+![前后端交互.jpg](https://i.loli.net/2021/09/04/j5v2oaEz7kUn69p.png)
+
+
+
+## 数据库
+
+没有使用数据库。所有卡牌相关信息存储在Json文件中，游戏启动会将json文件加载进内存。
+
+![json存储数据.png](https://i.loli.net/2021/09/04/aFlSAB4t8pUhneg.png)
+
+
+
 ## 版权说明:
 
 详情请参阅:LICENSE.md
